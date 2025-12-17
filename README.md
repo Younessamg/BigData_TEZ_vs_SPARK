@@ -39,6 +39,21 @@ Mini_projet_Bigdata/
     └── logs/                          # Application logs (gitignored)
 ```
 
+## 📚 Dataset
+
+This project uses the **Lending Club Loan Data** from Kaggle:
+👉 [Lending Club Loan Data on Kaggle](https://www.kaggle.com/datasets/wordsforthewise/lending-club)
+
+**Description:**
+> The Lending Club dataset contains detailed information about peer-to-peer loans issued by Lending Club, including loan amount, interest rate, borrower information, loan status, and payment history. It is widely used for credit risk analysis, machine learning, and big data processing benchmarks due to its size and rich feature set.
+
+**Key Features:**
+- Loan and borrower attributes (amount, term, grade, employment, etc.)
+- Credit history and risk indicators
+- Loan status and payment records
+- Suitable for ETL, analytics, and machine learning tasks
+
+
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -47,6 +62,7 @@ Mini_projet_Bigdata/
 - Docker Compose 2.0+
 - Python 3.8+ (for local development)
 - 8GB RAM minimum (16GB recommended)
+
 
 ### Setting Up the ETL Pipeline
 
