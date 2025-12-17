@@ -11,6 +11,11 @@ This project provides two main components:
 1. **Performance Benchmarking Suite**: Compare execution times and resource utilization across different big data processing engines
 2. **Production ETL Pipeline**: Docker-based data pipeline using Apache Spark and Airflow for scalable data processing
 
+
+# Architecture of our study
+
+<img width="1024" height="1536" alt="image_d&#39;installation_grp6" src="https://github.com/user-attachments/assets/4a7231a7-c7b9-4b7c-a666-0d5722dba27b" />
+
 ## 🏗️ Project Structure
 
 ```
