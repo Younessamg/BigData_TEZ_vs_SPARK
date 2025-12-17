@@ -3,7 +3,7 @@ x-airflow-common: &airflow-common
   environment:
     - AIRFLOW__CORE__EXECUTOR=SequentialExecutor
     - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=sqlite:////opt/airflow/db/airflow.db
-    - AIRFLOW__CORE__FERNET_KEY=USqPKFUoknVhpsjzUjBLUWA78Wxx5VwQF-WzF0NPTTg=
+    - AIRFLOW__CORE__FERNET_KEY=
     - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=true
     - AIRFLOW__CORE__LOAD_EXAMPLES=false
     - AIRFLOW__WEBSERVER__EXPOSE_CONFIG=true
