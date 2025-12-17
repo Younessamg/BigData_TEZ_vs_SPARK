@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+
+# Airflow
+logs/
+*.log
+
+# Data
+Pipline_etl_spark_airflow/data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+
+# VSCode
+.vscode/
+
+# Git
+.git/
+
+# Ignore large files
+*.csv
+*.orc
+*.parquet
+
+# Allow source code and configs
+!Pipline_etl_spark_airflow/requirements.txt
+!Pipline_etl_spark_airflow/Dockerfile
+!Pipline_etl_spark_airflow/docker-compose.yml
+!Pipline_etl_spark_airflow/PIPELINE_REVIEW.md
+!Pipline_etl_spark_airflow/spark_jobs/
+!Pipline_etl_spark_airflow/dags/
+!Pipline_etl_spark_airflow/airflow/
+!étude_comparative_tez_spark_mr/
